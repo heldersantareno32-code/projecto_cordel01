@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:ananda;
+    src: url(../ananda_2/Ananda\ Black\ Personal\ Use.ttf);
+}
+@font-face {
+    font-family: discipline;
+    src: url(../discipline_notes/Discipline\ Notes.otf) format(OpenType);
+}
+
+    
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    
+}
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header>h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-family: discipline;
+    
+}
+header>p{
+    padding-bottom: 50px;
+    font-family: ananda;
+    letter-spacing: 8px;
+    
+    
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover,footer a:hover{
+    text-decoration: underline;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    
+    background-color: rgb(45, 45, 45);
+    color: white;
+    box-shadow: inset 6px 13px 0px rgba(43, 41, 41, 0.114);
+    background-attachment: fixed;
+
+
+}section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+    font-family: ananda;
+    
+}section{
+    padding-bottom: 2em;
+}
+section.imagem>p{
+    background-color: #0000007b;
+   display: inline-block;
+    padding: 5px;
+    text-shadow: 2px 1px 0px black;
+
+}section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+
+}section#img2{
+background-image: url(../imagens/background002.jpg);
+background-position: right center;
+background-size:cover;
+
+}
+
+
+
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
